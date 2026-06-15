@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "mode": "file",
+  "forward_path": "logs/wazuh_forward.jsonl",
+  "api": {
+    "url": "https://wazuh-manager:55000",
+    "user": "foo",
+    "password": "bar",
+    "verify_ssl": true
+  }
+}
